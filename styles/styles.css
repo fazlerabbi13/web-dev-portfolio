@@ -13,11 +13,41 @@
     color: rgb(253, 110, 10);
   }
 
+  .btn-primary{
+    background-color: rgb(253, 110, 10);
+    padding: 20px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .dark{
+    color: rgb(71, 71, 71);
+  }
+
   nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
   }
 
   .nav-title{
     font-weight: 800;
     font-size: 45px;
+  }
+
+  nav ul{
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li{
+    list-style: none;
+    margin-right: 50px;
+  }
+  nav li a{
+    text-decoration: none;
+    font-size: 20px;
   }
